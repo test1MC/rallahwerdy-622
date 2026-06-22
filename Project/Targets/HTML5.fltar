@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="MadCap HTML5 Target"
@@ -9,7 +9,8 @@
   DefaultUrl="/Content/Home.htm"
   ShowMadCapBacklink="true"
   MasterToc="/Project/TOCs/TOC.fltoc"
-  ResolveCssVariables="true">
+  ResolveCssVariables="true"
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
